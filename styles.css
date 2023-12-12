@@ -685,6 +685,12 @@ transition: .3s ease
     }
 }
 
+@media (max-width: 768px) {
+    .wrapper{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
 
 .banner {
     position: absolute;
