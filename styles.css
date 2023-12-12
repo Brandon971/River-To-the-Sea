@@ -70,6 +70,30 @@
     }
   }
 
+          /* Media Query for Mobile Devices */
+          @media (max-width: 768px) {
+            .logo h1 {
+                font-size: 3vmax;
+            }
+
+            .logo h1 span {
+                font-size: 6vmax;
+            }
+
+            .container{
+                width: 100%;
+                       
+            }
+
+            .palestine{
+                width: 100%;
+                height: 100%;
+                overflow-x: hidden;
+                
+            }
+        }
+
+
 
 .section2{
    margin-top: 100px; 
