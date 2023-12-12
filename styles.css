@@ -672,7 +672,7 @@ transition: .3s ease
     align-items: center;
   }
   
-  .banner video {
+  .banner img {
     position: absolute;
     top: 0;
     left: 0;
