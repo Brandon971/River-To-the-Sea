@@ -704,3 +704,18 @@ transition: .3s ease
    
     text-outline: #fff;
   }
+
+
+  /* Music button */
+  #play,
+#pause {
+	float: center;
+	width: 40px;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
