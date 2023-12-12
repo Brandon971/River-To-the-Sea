@@ -37,5 +37,5 @@ function toggleAudio() {
       audioElement.pause();
       $(soundOn).hide();
       $(soundOff).show();
-    }
+    }l
   } 
