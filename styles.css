@@ -698,3 +698,9 @@ transition: .3s ease
   
   /* Freedom For Palestine For Ever */
   
+
+  #name{
+    font-size: 25px;
+   
+    text-outline: #fff;
+  }
