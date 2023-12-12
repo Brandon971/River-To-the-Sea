@@ -15,12 +15,15 @@ window.onresize = function() {
 }
 
 window.onmousemove = function(event) {
-    var x = event.clientX / 20,
-        y = event.clientY / 20,
-        div = document.getElementsByClassName('palestine')[0],
-        logo = document.getElementsByClassName('logo')[0];
-    div.style.left = divx + -x + "px";
-    div.style.top = divy + -y + "px";
+    // Check if the screen width is greater than 768 pixels (adjust as needed)
+    if (window.innerWidth > 768) {
+        var x = event.clientX / 20,
+            y = event.clientY / 20,
+            div = document.getElementsByClassName('palestine')[0],
+            logo = document.getElementsByClassName('logo')[0];
+        div.style.left = divx + -x + "px";
+        div.style.top = divy + -y + "px";
+    }
 }
 /* Freedom For Palestine For Ever */
 
